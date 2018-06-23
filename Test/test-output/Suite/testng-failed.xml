@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <parameter name="Strurl" value="http://apps.qaplanet.in/qahrm/login.php"/>
+  <parameter name="Username" value="qaplanet1"/>
+  <parameter name="Password" value="lab1"/>
+  <test name="login(failed)">
+    <parameter name="Strurl" value="http://apps.qaplanet.in/qahrm/login.php"/>
+    <parameter name="Username" value="qaplanet1"/>
+    <parameter name="Password" value="lab1"/>
+    <classes>
+      <class name="Testng.Para">
+        <methods>
+          <include name="para" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Testng.Para -->
+    </classes>
+  </test> <!-- login(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,8 @@
+<suite name="Suite" thread-count="2"  parallel="methods">
+<test name="login">
+<parameter name="browser" value="Firefox" />
+<classes>
+<class name="Testng.Para.java"></class>
+</classes>
+</test>
+</suite>
